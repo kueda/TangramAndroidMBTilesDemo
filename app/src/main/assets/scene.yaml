@@ -1,0 +1,19 @@
+scene:
+    background:
+        color: '#222'
+
+sources:
+    tm_world_borders:
+        type: MVT
+        url: 'file:///data/user/0/com.mapzen.tangramandroidmbtilesdemo/files/tm_world_borders.mbtiles'
+        max_zoom: 5
+layers:
+    world_borders:
+        data:
+            source: tm_world_borders
+            layer: "TM_WORLD_BORDERS_SIMPL-0.3"
+        draw:
+            lines:
+                order: 30
+                color: [1, 1, 1, 1.00]
+                width: 1px

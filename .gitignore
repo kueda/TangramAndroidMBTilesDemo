@@ -1,0 +1,10 @@
+*.iml
+.gradle
+gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+tangram-full-release/tangram-full-release.aar
